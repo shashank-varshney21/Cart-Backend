@@ -1,10 +1,11 @@
 import express from 'express';
-import { APP_PORT, DB_URL } from './config';
-import errorHandler from './middlewares/errorHandler';
+import { APP_PORT, DB_URL } from './config/index.js';
+import errorHandler from './middlewares/errorHandler.js';
 const app = express();
-import routes from './routes';
+import routes from './routes/index.js';
 import mongoose from 'mongoose';
 import path from 'path';
+import { fileURLToPath } from 'url';
 import cors from 'cors';
 
 // Database connection
@@ -19,12 +20,16 @@ db.once('open', () => {
     console.log('DB connected...');
 });
 
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 global.appRoot = path.resolve(__dirname);
-app.use(cors());
+app.use(cors({
+  origin: 'http://localhost:3000', // or your deployed frontend domain
+}));
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 app.use('/api', routes);
-app.use('/uploads', express.static('uploads'));
+app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 app.use('/', (req, res) => {
     res.send(`
   <h1>Welcome to E-commerce Rest APIs</h1>

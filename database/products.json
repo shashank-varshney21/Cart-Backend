@@ -5,7 +5,7 @@
   "name": "Four cheese",
   "price": 799,
   "size": "Medium",
-  "image": "uploads/1619798003389-788648576.png",
+  "image": "uploads/Four_Cheese.jpg",
   "createdAt": {
     "$date": "2021-04-30T15:53:23.393Z"
   },
@@ -19,7 +19,7 @@
   "name": "Chicken mushroom",
   "price": 699,
   "size": "Small",
-  "image": "uploads/1619798028739-356043472.png",
+  "image": "uploads/Chicken_mushroom.jpg",
   "createdAt": {
     "$date": "2021-04-30T15:53:48.741Z"
   },
@@ -30,10 +30,10 @@
   "_id": {
     "$oid": "608c2878e165f6137f02b54b"
   },
-  "name": "Margarita",
+  "name": "Margherita",
   "price": 699,
   "size": "Medium",
-  "image": "uploads/1619798136362-377165689.png",
+  "image": "uploads/Margherita.jpg",
   "createdAt": {
     "$date": "2021-04-30T15:55:36.364Z"
   },
@@ -47,7 +47,7 @@
   "name": "Carbonara",
   "price": 999,
   "size": "Large",
-  "image": "uploads/1619798154274-595975749.png",
+  "image": "uploads/Carbonara_pizza.jpg",
   "createdAt": {
     "$date": "2021-04-30T15:55:54.276Z"
   },
@@ -61,7 +61,7 @@
   "name": "Mix BBQ",
   "price": 1299,
   "size": "Large",
-  "image": "uploads/1619798169571-671551234.png",
+  "image": "uploads/Mix_BBQ.jpg",
   "createdAt": {
     "$date": "2021-04-30T15:56:09.573Z"
   },
@@ -75,7 +75,7 @@
   "name": "Mushroom",
   "price": 499,
   "size": "Small",
-  "image": "uploads/1619798195141-748496629.png",
+  "image": "uploads/Mushroom_pizza.jpg",
   "createdAt": {
     "$date": "2021-04-30T15:56:35.142Z"
   },
@@ -86,10 +86,10 @@
   "_id": {
     "$oid": "608c28d0e165f6137f02b54f"
   },
-  "name": "Double peperoni",
+  "name": "Double pepproni",
   "price": 1399,
   "size": "Large",
-  "image": "uploads/1619798224663-303286145.png",
+  "image": "uploads/Double_pepproni.jpg",
   "createdAt": {
     "$date": "2021-04-30T15:57:04.665Z"
   },
@@ -103,7 +103,7 @@
   "name": "Chicken premier",
   "price": 899,
   "size": "Medium",
-  "image": "uploads/1619798248317-105704752.png",
+  "image": "uploads/chicken_premier.jpg",
   "createdAt": {
     "$date": "2021-04-30T15:57:28.319Z"
   },
@@ -117,7 +117,7 @@
   "name": "Caramel pineapple",
   "price": 799,
   "size": "Small",
-  "image": "uploads/1619798276630-463888204.png",
+  "image": "uploads/caramel_pineapple.jpg",
   "createdAt": {
     "$date": "2021-04-30T15:57:56.632Z"
   },
@@ -131,7 +131,7 @@
   "name": "Havana special",
   "price": 599,
   "size": "Small",
-  "image": "uploads/1619798368145-612682611.png",
+  "image": "uploads/Havana_special.jpg",
   "createdAt": {
     "$date": "2021-04-30T15:59:28.146Z"
   },

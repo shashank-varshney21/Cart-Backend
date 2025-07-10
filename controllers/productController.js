@@ -1,10 +1,10 @@
-import { Product } from '../models';
+import { Product } from '../models/index.js';
 import multer from 'multer';
 import path from 'path';
-import CustomErrorHandler from '../services/CustomErrorHandler';
+import CustomErrorHandler from '../services/CustomErrorHandler.js';
 import fs from 'fs';
 import Joi from 'joi';
-import productSchema from '../validators/productValidator';
+import productSchema from '../validators/productValidator.js';
 
 const storage = multer.diskStorage({
     destination: (req, file, cb) => cb(null, 'uploads/'),
